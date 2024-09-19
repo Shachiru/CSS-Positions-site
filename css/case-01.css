@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  border: 2px solid black;
+}
+#left-top-box {
+  background-color: red;
+  width: 50vw;
+  height: 50vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#right-top-box {
+  background-color: green;
+  width: 50vw;
+  height: 50vh;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#left-bottom-box {
+  background-color: yellow;
+  width: 50vw;
+  height: 50vh;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+#right-bottom-box {
+  background-color: hotpink;
+  width: 50vw;
+  height: 50vh;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+#left-top-circle {
+  background-color: white;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-bottom-right-radius: 100%;
+}
+#right-top-circle {
+  background-color: white;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-bottom-left-radius: 100%;
+}
+#left-bottom-circle {
+  background-color: white;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top-right-radius: 100%;
+}
+#right-bottom-circle {
+  background-color: white;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-top-left-radius: 100%;
+}
+.box-circle {
+  background-color: white;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#center-box {
+  background-color: white;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#top-right-corner {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-bottom-left-radius: 100%;
+}
+#top-left-corner {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom-right-radius: 100%;
+}
+#bottom-right-corner {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-top-left-radius: 100%;
+}
+#bottom-left-corner {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top-right-radius: 100%;
+}
+.box-in-circle {
+  background-color: red;
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+#center-circle {
+  background-color: red;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
