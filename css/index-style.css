@@ -4,6 +4,7 @@ body {
 }
 #topic {
     text-align: center;
+    text-decoration: underline;
     font-size: 3rem;
     margin: 50px 0;
 }
