@@ -56,7 +56,7 @@ body {
 .img-box {
   width: 29vw;
   height: 300px;
-  border: 1px solid black;
+  border: 2px solid;
 }
 .img-box img {
   width: 29vw;
