@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(1,1fr 1fr 1fr 1fr);
+}
+.box {
+    border: 1px solid black;
+    height: 33vh;
+    width: 25vw;
+}
+.box1 {
+    background-color: #fe0101;
+}
+.box2 {
+    background-color: #018000;
+}
+.box3 {
+    background-color: #ff4500;
+}
+.box4 {
+    background-color: #81017e;
+}
+.box5 {
+    background-color: #fe1594;
+}
+.box6 {
+    background-color: #0100ff;
+}
+.box7 {
+    background-color: #a42b2b;
+}
+.box8 {
+    background-color: #ee82ef;
+}
+.box9 {
+    background-color: #4a0181;
+}
+.box10 {
+    background-color: #fed601;
+}
+.box11 {
+    background-color: #609da0;
+}
+.box12 {
+    background-color: #00fefe;
+}
