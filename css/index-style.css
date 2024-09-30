@@ -77,3 +77,18 @@ p {
   color: white;
   font-weight: bold;
 }
+footer {
+  background-color: gray;
+  height: 5vh;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  padding: 0 240px;
+}
+.icons {
+  margin-left: auto;
+}
+.icons > nav > a > img {
+  width: 35px;
+  margin-right: 20px;
+}
